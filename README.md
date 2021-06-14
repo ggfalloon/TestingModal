@@ -13,9 +13,7 @@ An exercise intended for A/B testing using a modal pop up to deteremine click ac
 
 ## Usage
 
-URL - 
-
-
+![screencapture-file-Users-gfalloon-Coding-Projects-TestingModal-index-html-2021-06-14-15_12_14](https://user-images.githubusercontent.com/71281652/121953530-4af43580-cd23-11eb-8f10-86813eb25c49.png)
 
 ## Resources
 * API - https://conversionfanatics.com/cf-test-task/geo-api/
