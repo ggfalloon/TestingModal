@@ -14,14 +14,29 @@
             margin-top: 400px;
         }
 
-        #modal {
+        #ouibounce-modal {
             font-family: src="https://www.google.com/fonts/specimen/Lato";
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
         }
     </style>
 </head>
 
 <body>
     <h1>CF Dev TEST</h1>
+
+    <div id="ouibounce-modal">
+        <h5>WAIT! SPECIAL OFFER FOR <span id="city"></span> RESIDENTS...</h5>
+        <h2>Claim your instant discount before the timer runs out!</h2>
+        <div class="clock"></div>
+        <button>CLAIM DISCOUNT</button>
+    </div>
+
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ouibounce/0.0.12/ouibounce.js"
         integrity="sha512-jBbXdclmLsEjHr6brYhQEf22JqtYDPyUV4gl8AJ9u5HL1burqhMFD4x1gt3HF4alYm6uq5ujYFDTQ78743lyZw=="
